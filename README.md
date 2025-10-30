@@ -27,11 +27,11 @@ solar_power/
 
 1. **太陽能發電量**  
    來源：台灣電力公司再生能源發電資訊  
-   🔗 https://www.taipower.com.tw/chart/
+   https://www.taipower.com.tw/chart/
 
 2. **太陽輻射量與氣溫**  
    來源：NASA POWER (Prediction of Worldwide Energy Resources) API  
-   📄 文件：https://power.larc.nasa.gov/docs/services/api/
+   文件：https://power.larc.nasa.gov/docs/services/api/
 
 ---
 
@@ -120,15 +120,6 @@ X' = \frac{X - X_{min}}{X_{max} - X_{min}}
 - 2023–2024 年下半年，台灣太陽輻射量與氣溫均有下降趨勢。  
 - 對應的太陽能發電量亦顯著減少，顯示可能存在輻射量與氣溫對發電效率的共同影響。  
 - 但仍需更長期的觀測與氣象條件（如雲量、降雨）才能確立因果關係。
-
----
-
-## 未來改進方向
-
-- 整合中央氣象署歷年逐日氣象資料（溫度、降雨量、日照時數）  
-- 進行回歸分析或皮爾森相關係數分析  
-- 將資料儲存至 SQLite / MySQL 進行長期分析  
-- 開發 Dash / Streamlit 互動式視覺化儀表板  
 
 ---
 
