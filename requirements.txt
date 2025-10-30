@@ -1,0 +1,13 @@
+python-dotenv      
+requests            
+pandas              
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+schedule
+tqdm
+selenium
+webdriver-manager
+pandas
